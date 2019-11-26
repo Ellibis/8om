@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./img/favicon.png" rel="shortcut icon"/>
+        <meta charset="utf-8"/>
+        <meta content="width=1440, maximum-scale=1.0" name="viewport"/>
+        <link href="./css/recupe.css" rel="stylesheet" type="text/css"/>
+        <meta content="Launchpad by Anima" name="author">
+        </meta>
+    </head>
+    <body style="margin: 0;
+ background: rgba(255, 255, 255, 1.0);">
+        <input id="anPageName" name="page" type="hidden" value="recupe"/>
+        <div class="recupe">
+            <div style="width: 1440px; height: 100%; position:relative; margin:auto;">
+                <div class="introduction">
+                    <div class="paragraphe">
+                        <span class="span1">Consommation<br /></span><span class="span2">raisonnée</span><span class="span3"> et<br />développement<br /></span><span class="span4">durable</span><span class="span5">.</span>
+                    </div>
+                    <div class="titre">
+                        De nombreux vieux objets, cassés, usagés ou inutilisés finissent à la poubelle, malgré l'intérêt qu'ils pourraient représenter pour quelqu'un, faute de savoir à qui donner.<br /><br />Recupe est un site de dons, de récupération, de brocante gratuite où chacun peut proposer et donner sur internet, plutôt que jeter ce dont il veut se débarrasser.
+                    </div>
+                    <img anima-src="./img/recupe-illu.png" class="illu" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                </div>
+                <div class="header">
+                    <img anima-src="./img/recupe-logo@2x.png" class="logo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <div class="menu">
+                        <div class="dons1">
+                            DONS
+                        </div>
+                        <div class="actualit311s">
+                            ACTUALITÉS
+                        </div>
+                        <div class="a300propos">
+                            À PROPOS
+                        </div>
+                        <div class="noussoutenir">
+                            NOUS SOUTENIR
+                        </div>
+                        <div class="forum">
+                            FORUM
+                        </div>
+                    </div>
+                </div>
+                <div class="signin">
+                    <div class="group">
+                        <div class="rectangle">
+                        </div>
+                        <div class="su2019enregistrer">
+                            S’ENREGISTRER
+                        </div>
+                    </div>
+                    <div class="signin1">
+                        SE CONNECTER
+                    </div>
+                    <img anima-src="./img/recupe-account-logo@2x.png" class="accountlogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                </div>
+                <img anima-src="./img/recupe-footerbg.png" class="footerbg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <div class="dons">
+                    <img anima-src="./img/recupe-rectangle.png" class="rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <div class="jecherche">
+                        Je cherche
+                    </div>
+                    <img anima-src="./img/recupe-combined-shape.png" class="combinedshape" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <div class="jedonne">
+                        Je donne
+                    </div>
+                    <div class="form">
+                        <div class="rectangle1">
+                        </div>
+                        <div class="rectanglecopy">
+                        </div>
+                        <div class="rectanglecopy2">
+                        </div>
+                        <div class="rectanglecopy3">
+                        </div>
+                        <div class="o371recherchezvous">
+                            Où recherchez-vous ?
+                        </div>
+                        <div class="quelcat351goriedu2019obj">
+                            Quel catégorie d’objet ?
+                        </div>
+                        <div class="quelobjetrecherche">
+                            Quel objet recherchez-vous ?
+                        </div>
+                        <div class="rechercher">
+                            Rechercher
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Scripts -->
+        <script>
+            anima_isHidden = function(e) {
+                if (!(e instanceof HTMLElement)) return !1;
+                if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
+                return !1;
+            };
+            anima_loadAsyncSrcForTag = function(tag) {
+                var elements = document.getElementsByTagName(tag);
+                var toLoad = [];
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var src = e.getAttribute("src");
+                    var loaded = (src != undefined && src.length > 0 && src != 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+                    if (loaded) continue;
+                    var asyncSrc = e.getAttribute("anima-src");
+                    if (asyncSrc == undefined || asyncSrc.length == 0) continue;
+                    if (anima_isHidden(e)) continue;
+                    toLoad.push(e);
+                }
+                toLoad.sort(function(a, b) {
+                    return anima_getTop(a) - anima_getTop(b);
+                });
+                for (var i = 0; i < toLoad.length; i++) {
+                    var e = toLoad[i];
+                    var asyncSrc = e.getAttribute("anima-src");
+                    e.setAttribute("src", asyncSrc);
+                }
+            };
+            anima_pauseHiddenVideos = function(tag) {
+                var elements = document.getElementsByTagName("video");
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var isPlaying = !!(e.currentTime > 0 && !e.paused && !e.ended && e.readyState > 2);
+                    var isHidden = anima_isHidden(e);
+                    if (!isPlaying && !isHidden && e.getAttribute("autoplay") == "autoplay") {
+                        e.play();
+                    } else if (isPlaying && isHidden) {
+                        e.pause();
+                    }
+                }
+            };
+            anima_loadAsyncSrc = function(tag) {
+                anima_loadAsyncSrcForTag("img");
+                anima_loadAsyncSrcForTag("iframe");
+                anima_loadAsyncSrcForTag("video");
+                anima_pauseHiddenVideos();
+            };
+            var anima_getTop = function(e) {
+                var top = 0;
+                do {
+                    top += e.offsetTop || 0;
+                    e = e.offsetParent;
+                } while (e);
+                return top;
+            };
+            anima_loadAsyncSrc();
+            anima_old_onResize = window.onresize;
+            anima_new_onResize = undefined;
+            anima_updateOnResize = function() {
+                if (anima_new_onResize == undefined || window.onresize != anima_new_onResize) {
+                    anima_new_onResize = function(x) {
+                        if (anima_old_onResize != undefined) anima_old_onResize(x);
+                        anima_loadAsyncSrc();
+                    };
+                    window.onresize = anima_new_onResize;
+                    setTimeout(function() {
+                        anima_updateOnResize();
+                    }, 3000);
+                }
+            };
+            anima_updateOnResize();
+            setTimeout(function() {
+                anima_loadAsyncSrc();
+            }, 200);
+        </script>
+        <!-- End of Scripts -->
+    </body>
+</html>

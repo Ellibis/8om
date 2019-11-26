@@ -1,0 +1,655 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600,700');
+
+@font-face {
+                          font-family: "CircularStd-Bold";
+                          src: url('../fonts/CircularStd-Bold.otf') format("opentype");
+                        }
+                        
+.recupe {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 2111px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.recupe .introduction {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 136px;
+  height              : 452px;
+  width               : 967px;
+  position            : absolute;
+  margin              : 0;
+  left                : 237px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.recupe .introduction .paragraphe {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "CircularStd-Bold", Helvetica, Arial, serif;
+  font-size           : 65.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : -1.81px;
+  line-height         : 55.0px;
+}
+.recupe .introduction .paragraphe .span1 {
+  
+}
+.recupe .introduction .paragraphe .span2 {
+  color               : rgba(63, 18, 169, 1.0);
+}
+.recupe .introduction .paragraphe .span3 {
+  
+}
+.recupe .introduction .paragraphe .span4 {
+  color               : rgba(0, 188, 135, 1.0);
+}
+.recupe .introduction .paragraphe .span5 {
+  
+}
+.recupe .introduction .titre {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 284px;
+  height              : auto;
+  width               : 513px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(119, 119, 119, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.5px;
+  line-height         : 24.0px;
+}
+.recupe .introduction .illu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 447px;
+  width               : 456px;
+  position            : absolute;
+  margin              : 0;
+  left                : 511px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.recupe .header {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 29px;
+  width               : 678px;
+  position            : absolute;
+  margin              : 0;
+  left                : 237px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.recupe .header .logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 29px;
+  width               : 155px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.recupe .header .menu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 15px;
+  width               : 473px;
+  position            : absolute;
+  margin              : 0;
+  left                : 205px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.recupe .header .menu .dons1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 11.0px;
+  color               : rgba(119, 119, 119, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.31px;
+  line-height         : 15.0px;
+}
+.recupe .header .menu .actualit311s {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 81px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 11.0px;
+  color               : rgba(119, 119, 119, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.31px;
+  line-height         : 15.0px;
+}
+.recupe .header .menu .a300propos {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 193px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 11.0px;
+  color               : rgba(119, 119, 119, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.31px;
+  line-height         : 15.0px;
+}
+.recupe .header .menu .noussoutenir {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 296px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 11.0px;
+  color               : rgba(119, 119, 119, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.31px;
+  line-height         : 15.0px;
+}
+.recupe .header .menu .forum {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 433px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 11.0px;
+  color               : rgba(119, 119, 119, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.31px;
+  line-height         : 15.0px;
+}
+.recupe .signin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 30px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 964px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.recupe .signin .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 109px;
+  position            : absolute;
+  margin              : 0;
+  left                : 131px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.recupe .signin .group .rectangle {
+  background-color    : rgba(63, 18, 169, 1.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 109px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.recupe .signin .group .su2019enregistrer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 11.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.31px;
+  line-height         : 15.0px;
+}
+.recupe .signin .signin1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 11.0px;
+  color               : rgba(46, 46, 46, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.31px;
+  line-height         : 15.0px;
+}
+.recupe .signin .accountlogo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 14px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.recupe .footerbg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1677px;
+  height              : 434px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.recupe .dons {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 702px;
+  height              : 509px;
+  width               : 808px;
+  position            : absolute;
+  margin              : 0;
+  left                : 317px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.recupe .dons .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 509px;
+  width               : 808px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.recupe .dons .jecherche {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 49px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 141px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "CircularStd-Bold", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(63, 18, 169, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.83px;
+  line-height         : 38.0px;
+}
+.recupe .dons .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 76px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 403px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.recupe .dons .jedonne {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 49px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 530px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "CircularStd-Bold", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.83px;
+  line-height         : 38.0px;
+}
+.recupe .dons .form {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 175px;
+  height              : 239px;
+  width               : 276px;
+  position            : absolute;
+  margin              : 0;
+  left                : 77px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.recupe .dons .form .rectangle1 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 38px;
+  box-sizing          : border-box;
+  width               : 275px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 5px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.recupe .dons .form .rectanglecopy {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 59px;
+  height              : 38px;
+  box-sizing          : border-box;
+  width               : 275px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 5px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.recupe .dons .form .rectanglecopy2 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 118px;
+  height              : 38px;
+  box-sizing          : border-box;
+  width               : 275px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 5px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.recupe .dons .form .rectanglecopy3 {
+  background-color    : rgba(0, 188, 135, 1.0);
+  top                 : 201px;
+  height              : 38px;
+  width               : 275px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  border-radius       : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.recupe .dons .form .o371recherchezvous {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 69px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(119, 119, 119, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.39px;
+  line-height         : 19.0px;
+}
+.recupe .dons .form .quelcat351goriedu2019obj {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 69px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 62px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(119, 119, 119, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.39px;
+  line-height         : 19.0px;
+}
+.recupe .dons .form .quelobjetrecherche {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 128px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(119, 119, 119, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.39px;
+  line-height         : 19.0px;
+}
+.recupe .dons .form .rechercher {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 211px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 101px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.39px;
+  line-height         : 19.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
